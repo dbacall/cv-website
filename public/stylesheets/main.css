@@ -1,5 +1,10 @@
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'Libre Baskerville', serif;
+  height: 100%;
 }
 
 img {
@@ -53,11 +58,12 @@ h3 {
   position: absolute;
   left: 0;
   top: 0;
-  height: 220%;
+  height: 320%;
   width: 30%;
   background: lightblue;
   border-right: 10px solid gray; 
   z-index: 1;
+  overflow-y: scroll;
 }
 
 #img-box {
@@ -65,7 +71,7 @@ h3 {
   border: 4px solid black;
   border-radius: 50%;
   width: 65%;
-  height: 17%;
+  height: 11%;
   z-index: 1;
   overflow: hidden;
   margin-left: 18%;
@@ -139,4 +145,8 @@ h3 {
 
 hr {
   margin: 0 10% 0 10%;
+}
+
+.section {
+  border: 2px solid black;
 }
